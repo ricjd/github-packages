@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "A server with 2 packages",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node index.ts",
+    "start": "node dist/index/js"
+  },
+  "author": "Rick Knowler",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.1.0",
+    "tsc": "^2.0.3"
+  },
+  "dependencies": {
+    "@ricjd/time": "file:../jslib/time",
+    "complete-randomer": "^1.9.1"
+  }
+}
