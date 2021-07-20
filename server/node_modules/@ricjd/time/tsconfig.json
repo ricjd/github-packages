@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "target": "esnext",
+    "lib": ["esnext"],
+    "strict": true
+  },
+  "ts-node": {
+    "files": true,
+    "transpileOnly": true
+  }
+}
